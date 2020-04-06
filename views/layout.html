@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <!--
+  <html>
+  
+    HTML
+
+    HyperText
+    HiperTextos
+      São texto que aceitam links e audio visual
+
+    Markup
+      Marcação feitas com <tags>
+
+    Language
+      Linguagem
+  -->
+
+<head>
+  <!-- Responsável por receber configurações da página -->
+  <!--
+    pesquisar sobre isso no canal da Rocketseat, sobre responsividade
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  -->
+  <meta charset="UTF-8">
+  
+  {% block title %}
+    <!-- 
+      Sempre tem o title, mas se ele chegar em uma página que pede o block
+      title, vai substituir pelo que tem lá 
+    -->
+    <title>Casa Criativa</title>
+  {% endblock title %}
+
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" 
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body id = "{{ bodyId }}">
+
+  <div id="container">
+
+    {% block content %}
+    {% endblock content %}
+
+  </div>
+
+
+  <!-- Modal -->
+  {% include "modal.html" %}
+
+
+  <script src="/scripts.js"></script>
+
+</body>
+
+</html>
