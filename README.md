@@ -18,19 +18,19 @@ CasaCriativa é um projeto criado pela Rocketseat, a ideia desse sistema é:
 
 ### Como usar
 
-Clone o reposiório
+> Clone o reposiório
 ```shell
 $ git clone https://github.com/TakaGui/workshopdev.git
 ```
-Vá até o repositório
+> Vá até o repositório
 ```shell
 $ cd workshopdev
 ```
-Instale as dependências
+> Instale as dependências
 ```shell
 $ npm install
 ```
-Execute o aplicativo
+> Execute o aplicativo
 ```shell
 $ npm start
 ```
