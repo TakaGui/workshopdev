@@ -1,4 +1,4 @@
-# CasaCriativa
+![image](/public/logo.png)
 
 CasaCriativa é um projeto criado pela Rocketseat, a ideia desse sistema é:
 
