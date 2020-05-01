@@ -6,6 +6,10 @@ CasaCriativa é um projeto criado pela Rocketseat, a ideia desse sistema é:
   - Listar as ideias sempre que precisar.
   - Excluir ideias caso seja necessário.
   - Pesquisar ideias específicas dentro do sistema.
+  
+### Aparência
+
+![image](/public/index.png)
 
 ### Linguagem utilizada
 
