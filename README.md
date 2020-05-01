@@ -19,13 +19,18 @@ SQLite3
 ### Como usar
 
 Clone o reposiório
+```shell
 $ git clone https://github.com/TakaGui/workshopdev.git
-
+```
 Vá até o repositório
+```shell
 $ cd workshopdev
-
+```
 Instale as dependências
+```shell
 $ npm install
-
+```
 Execute o aplicativo
+```shell
 $ npm start
+```
