@@ -9,12 +9,12 @@ CasaCriativa é um projeto criado pela Rocketseat, a ideia desse sistema é:
 
 ### Linguagem utilizada
 
-Javascript
+  - Javascript
 
 ### Tecnologias utilizadas
 
-Node.js
-SQLite3
+  - Node.js
+  - SQLite3
 
 ### Como usar
 
